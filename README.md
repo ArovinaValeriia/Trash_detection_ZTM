@@ -85,6 +85,7 @@ Potrzebne będą na pewno:
 Do detekcji możemy użyć np. Microsoft Azure Vision API, Google Cloud Vision lub innego rozwiązania open source.
 
 Fajnie by było pokazać zdjęcie przed i po detekcji tzn. z tą ramką detekcji.
+
 ![](https://github.com/s18943/Trash_detection_ZTM/blob/concept/raw/eg_trash_detection.jpg)
 
 Prototyp rozwiązania został zrobiony przez Patryka w Google Cloudzie.
