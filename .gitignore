@@ -13,6 +13,8 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+# may be removed
+# ztm_env.venv/
 .eggs/
 lib/
 lib64/
