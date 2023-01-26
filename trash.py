@@ -174,13 +174,3 @@ from PIL import Image
 img_data = m._to_png(5)
 img = Image.open(io.BytesIO(img_data))
 img.save('image.png')
-
-from matplotlib import pyplot as plt
-from matplotlib import image as mpimg
- 
-plt.title("Mapa")
-plt.xlabel("X pixel scaling")
-plt.ylabel("Y pixels scaling")
-
-plt.imshow(img)
-plt.show()
