@@ -25,7 +25,10 @@ def img_get_location(path_to_image):
     rslt = []
     image = Image.open(path_to_image)
     exif_dict = piexif.load(image.info.get('exif'))
-    exif_dict = exif_to_tag(exif_dict)
-    rslt.append(float(str(exif_dict['GPS'].get('GPSLatitude')[0][0])+"."+str(exif_dict['GPS'].get('GPSLatitude')[1][0])))
-    rslt.append(float(str(exif_dict['GPS'].get('GPSLongitude')[0][0])+"."+str(exif_dict['GPS'].get('GPSLongitude')[1][0])))
-    return rslt
+    try:
+        exif_dict = exif_to_tag(exif_dict)
+        rslt.append(float(str(exif_dict['GPS'].get('GPSLatitude')[0][0])+"."+str(exif_dict['GPS'].get('GPSLatitude')[1][0])))
+        rslt.append(float(str(exif_dict['GPS'].get('GPSLongitude')[0][0])+"."+str(exif_dict['GPS'].get('GPSLongitude')[1][0])))
+        return rslt
+    except:
+        return [None, None]
