@@ -1,4 +1,6 @@
-# Projekt ZTM - Detekcja zanieczyszczeń na obszarach zielonych ze zdjęć wykonanych dronem
+![](https://github.com/s18943/Trash_detection_ZTM/blob/main/raw/pjatk_logo.png)
+
+# Detekcja składowisk odpadów na podstawie zdjęć z dronów z użyciem modeli uczenia maszynowego
 *PJATK - ZTM - Wykorzystanie ML/AI w Multimediach*
 
 Autorzy:
@@ -15,56 +17,15 @@ Elementy wchodzące w skład projektu:
 
 ### Dokumentacja prototypu projektu
 
-#### Opis problemu
-Zanieczyszczenie środowiska jest realnym problemem, z którym obecnie musi mierzyć się społeczeństwo. Problem ten w 
-jakimś stopniu dotyka każdego państwa na świecie. Co więcej, jest to problem z kategorii problemów 'wspólnych', ponieważ
-zanieczyszczenie środowiska nie zna granic i w długiej perspektywie może wpływać na obniżenie się jakości życia 
-wszystkich ludzi na świecie, niezależnie od płci, wieku czy kultury, z której pochodzą. Temat ten jest ściśle związany z
-tak dobrze nam znaną ekologią.
+Dokumentacja projektu zawierająca:
+- opis problemu
+- proponowane rozwiązanie
+- opis użytkowników, rynku i konkurencji
+- uzasadnienie inwestycji
+- spis wymaganych komponentów i ich kosztu
+- kryteria sukcesu
 
-Jednym z częstych problemów występujących w Polsce jest nielegalne pozbywania się odpadów komunalnych w miejscach
-do tego nieprzeznaczonych. Śmieci często trafiają na teren obszarów zielonych, takich jak lasy, łąki czy 
-miejskie trawniki. Powoduje to zanieczyszczenie środowiska, ponieważ większość śmieci rozkłada się w naturze przez setki
-lat. Tworzy to szereg zagrożeń dla klimatu takich jak...
-
-#### Proponowane rozwiązanie
-W celu zredukowania zanieczyszczenia środowiska chcielibyśmy zaproponować rozwiązanie w postaci algorytmu detekcji
-śmieci na podstawie wideo/zdjęć przesłanych przez drona skanującego obszary zielone. Wykorzystując bardzo wysoką 
-mobilność dronów można by przeskanować wiele obszarów zielonych w poszukiwaniu pozostawionych tam śmieci. Następnie na
-podstawie lokalizacji śmieci, odpowiednie ekipy sprzątającej mogłby zostać tam wysłane w celu uprzątniecia śmieci
-zanim zanieczyszczenia przedostaną się do środowiska.
-
-
-#### Opis użytkowników, rynku i konkurencji
-Użytkownikami byłoby całe społeczeństwo, ponieważ rozwiązania z obszaru ekologii wpływają pozytywnie na jakość życia
-wszystkich z nas.
-
-Rynek i konkurencja:
-...
-
-
-
-#### Uzasadnienie inwestycji (np. innowacyjność i oszczędność)
-Oszczędność:
-- skanowanie terenów zielonych przez drona jest szybsze niż w wykonaniu człowieka, a zatem oszczędza się czas. 
-Zaoszczędzony czas to zaoszczędzone pieniądze.
-
-Innowacja:
-- automatyzacja procesu sprzątania obszarów zielonych
-
-#### Wymagane komponenty i ich koszt
-Komponenty:
-- Wykorzystanie algorytmu DL do detekcji dronów
-- 'Armia' dronów
-- Stacje dokujące i serwisowe
-- Po przeskanowaniu obszaru: zatrudnienie firmy mogącej posprzątać odpady
-Koszt:
-<należy policzyć koszt komponentów - dodać jakieś założenia>
-#### Kryteria sukcesu
-- rozpoznawanie śmieci ze zdjęć (a później z filmów)
-- mniej zanieczyszczeń na obszarach zielonych
-- poprawa kondycji środowiska naturalnego
-- znalezienie częstych punktów nielegalnego składowania śmieci (można zniwelować instalując kamery)
+znajduje się w pliku `Dokumentacja_Trash.pdf` w folderze `documentation`.
 
 ### Demo PoC
 W ramach demo funkcjonalności prototypu dobrze by było, gdyby udało się zrobić:
@@ -105,9 +66,6 @@ W tym celu wykorzystać możemy:
 
 ### Prezentacja wyników projektu
 
-<placeholder na link do końcowej prezentacji>
+Prezentacja wyników projektu znajduje się w pliku `Prezentacja_Trash.pdf` w folderze `documentation`.
 
-### Bibliografia i publikacje w prasie
-- https://www.matec-conferences.org/articles/matecconf/pdf/2018/91/matecconf_eitce2018_01056.pdf
-- https://www.rmf24.pl/fakty/polska/news-walka-z-nielegalnymi-wysypiskami-smieci-fotopulapki-w-nadarz,nId,5465495#crp_state=1
-- https://www.lasy.gov.pl/pl/informacje/aktualnosci/smieci-ciaglym-problemem-w-lasach
+*Enjoy!*
