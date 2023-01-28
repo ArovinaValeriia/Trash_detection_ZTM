@@ -4,10 +4,11 @@
 *PJATK - ZTM - Wykorzystanie ML/AI w Multimediach*
 
 Autorzy:
-- Serhii Krasnoiarskyi (s18943)
+- Valeria Arovina (s19316)
 - Witold Kurpiewski (s16687)
 - Jan Masny (s23453)
 - Patryk Pajączkowski (s17009)
+- Serhii Krasnoiarskyi (s18943)
 - Jacek Spaliński (s26557)
 
 Elementy wchodzące w skład projektu:
